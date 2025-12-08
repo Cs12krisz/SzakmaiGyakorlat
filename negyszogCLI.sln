@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negyszogCLITests", "negyszogCLITests\negyszogCLITests.csproj", "{D364A4D3-DD2F-41A2-B05E-C14AEF84E32A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "negyszogekWPF", "negyszogekWPF\negyszogekWPF.csproj", "{D484BD84-923A-4B47-B54F-A662DACCD6A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{D364A4D3-DD2F-41A2-B05E-C14AEF84E32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D364A4D3-DD2F-41A2-B05E-C14AEF84E32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D364A4D3-DD2F-41A2-B05E-C14AEF84E32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D484BD84-923A-4B47-B54F-A662DACCD6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D484BD84-923A-4B47-B54F-A662DACCD6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D484BD84-923A-4B47-B54F-A662DACCD6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D484BD84-923A-4B47-B54F-A662DACCD6A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

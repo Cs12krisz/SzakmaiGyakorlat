@@ -23,6 +23,7 @@ namespace negyszogekWPF
         {
             InitializeComponent();
             Beolvas("negyszogek.csv");
+            dtg_Data.ItemsSource = lista.Select(n => new {Aoldal = n.A});
         }
 
         static void Beolvas(string fajl)

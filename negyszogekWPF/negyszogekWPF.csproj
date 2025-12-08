@@ -8,4 +8,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\negyszogCLI\negyszogCLI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="negyszogek.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

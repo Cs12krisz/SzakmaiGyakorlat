@@ -25,8 +25,6 @@ namespace negyszogCLI
             D = int.Parse(temp[3]);
         }
 
-        public List<int> Oldalak { get; set; }
-
         public int A { get; private set; }
         public int B { get; private set; }
         public int C { get; private set; }
