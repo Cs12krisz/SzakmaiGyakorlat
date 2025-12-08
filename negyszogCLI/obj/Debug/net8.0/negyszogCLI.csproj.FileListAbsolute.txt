@@ -1,0 +1,15 @@
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\bin\Debug\net8.0\negyszogCLI.exe
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\bin\Debug\net8.0\negyszogek.csv
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\bin\Debug\net8.0\negyszogCLI.deps.json
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\bin\Debug\net8.0\negyszogCLI.runtimeconfig.json
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\bin\Debug\net8.0\negyszogCLI.dll
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\bin\Debug\net8.0\negyszogCLI.pdb
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\negyszogCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\negyszogCLI.AssemblyInfoInputs.cache
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\negyszogCLI.AssemblyInfo.cs
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\negyszogCLI.csproj.CoreCompileInputs.cache
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\negyszogCLI.dll
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\refint\negyszogCLI.dll
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\negyszogCLI.pdb
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\negyszogCLI.genruntimeconfig.cache
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\ref\negyszogCLI.dll
