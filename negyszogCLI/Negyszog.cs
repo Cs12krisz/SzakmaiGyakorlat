@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace negyszogCLI
 {
-    internal class Negyszog
+    public class Negyszog
     {
         public Negyszog(int a, int b, int c, int d)
         {
@@ -25,9 +25,37 @@ namespace negyszogCLI
             D = int.Parse(temp[3]);
         }
 
+        public List<int> Oldalak { get; set; }
+
         public int A { get; private set; }
         public int B { get; private set; }
         public int C { get; private set; }
         public int D { get; private set; }
+
+        public bool SzerkeszthetoE()
+        {
+            int[] oldalak = {A, B, C, D};
+            int legnagyobb = oldalak[0];
+            for (int i = 1; i < oldalak.Length; i++)
+            {
+                if (oldalak[i] > legnagyobb)
+                {
+                    legnagyobb = oldalak[i];
+                }
+            }
+
+            int osszeg = oldalak.Sum() - legnagyobb;
+            if (legnagyobb < osszeg)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public override string? ToString()
+        {
+            return $"\ta: {A} b: {B} c: {C} d: {D}";
+        }
     }
 }

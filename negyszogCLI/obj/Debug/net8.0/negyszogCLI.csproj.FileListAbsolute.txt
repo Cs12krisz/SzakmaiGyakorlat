@@ -13,3 +13,4 @@ C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\refint\ne
 C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\negyszogCLI.pdb
 C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\negyszogCLI.genruntimeconfig.cache
 C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\ref\negyszogCLI.dll
+C:\Users\CsKrisz\source\repos\negyszogCLI\negyszogCLI\obj\Debug\net8.0\negyszogCLI.sourcelink.json
