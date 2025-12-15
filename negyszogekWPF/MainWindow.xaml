@@ -7,14 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="dtg_Data" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="46,48,323,48"/>
+        <DataGrid x:Name="dtg_Data" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="29,48,340,48" SelectionChanged="dtg_Data_SelectionChanged"/>
         <TextBox x:Name="tbx_Aoldal" HorizontalAlignment="Left" Margin="578,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="tbx_Boldal"  HorizontalAlignment="Left" Margin="578,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="tbx_Coldal" HorizontalAlignment="Left" Margin="578,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="tbx_Doldal" HorizontalAlignment="Left" Margin="578,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Hozzáad" HorizontalAlignment="Left" Margin="613,316,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Button Content="Törlés" HorizontalAlignment="Left" Margin="621,395,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
-        <Button Content="Módosítás" HorizontalAlignment="Left" Margin="616,354,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <Button Content="Hozzáad" HorizontalAlignment="Left" Margin="651,315,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Törlés" HorizontalAlignment="Left" Margin="659,394,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="Módosítás" HorizontalAlignment="Left" Margin="654,353,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <ComboBox x:Name="cmx_Oldal" HorizontalAlignment="Left" Margin="490,341,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cmx_Oldal_SelectionChanged"/>
+        <Button x:Name="btn_rendezes" Content="Rendezés" HorizontalAlignment="Left" Margin="497,298,0,0" VerticalAlignment="Top" Click="btn_rendezes_Click"/>
 
     </Grid>
 </Window>

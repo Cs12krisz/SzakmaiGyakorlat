@@ -25,6 +25,11 @@ namespace negyszogekWPF
             InitializeComponent();
             Beolvas("negyszogek.csv");
             dtg_Data.ItemsSource = lista;
+            cmx_Oldal.Items.Add("A oldal");
+            cmx_Oldal.Items.Add("B oldal");
+            cmx_Oldal.Items.Add("C oldal");
+            cmx_Oldal.Items.Add("D oldal");
+
         }
 
         static void Beolvas(string fajl)
@@ -114,6 +119,41 @@ namespace negyszogekWPF
             {
                 MessageBox.Show("Nincs kijelölt elem");
             }
+        }
+
+        private void dtg_Data_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            tbx_Aoldal.Text = lista[dtg_Data.SelectedIndex].A.ToString();
+            tbx_Boldal.Text = lista[dtg_Data.SelectedIndex].B.ToString();
+            tbx_Coldal.Text = lista[dtg_Data.SelectedIndex].C.ToString();
+            tbx_Doldal.Text = lista[dtg_Data.SelectedIndex].D.ToString();
+        }
+
+        private void cmx_Oldal_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void btn_rendezes_Click(object sender, RoutedEventArgs e)
+        {
+            if (cmx_Oldal.SelectedIndex == 0)
+            {
+                dtg_Data.ItemsSource = lista.OrderBy(l => l.A);
+            }
+            if (cmx_Oldal.SelectedIndex == 1)
+            {
+                dtg_Data.ItemsSource = lista.OrderBy(l => l.B);
+            }
+            if (cmx_Oldal.SelectedIndex == 2)
+            {
+                dtg_Data.ItemsSource = lista.OrderBy(l => l.C);
+            }
+            if (cmx_Oldal.SelectedIndex == 3)
+            {
+                dtg_Data.ItemsSource = lista.OrderBy(l => l.D);
+            }
+            
+
         }
     }
 }
