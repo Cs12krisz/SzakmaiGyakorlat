@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("negyszogCLI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+922a76166ce32b6a28aeb42c4b159066dfa7507f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5dffc5eabbc68291fb609431c820ac4467aba6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("negyszogCLI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("negyszogCLI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

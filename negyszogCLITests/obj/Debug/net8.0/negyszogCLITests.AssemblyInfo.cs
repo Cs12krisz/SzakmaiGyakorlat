@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("negyszogCLITests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26ee2830cd01f8710455c9cb58929fabae81e2b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5dffc5eabbc68291fb609431c820ac4467aba6f")]
 [assembly: System.Reflection.AssemblyProductAttribute("negyszogCLITests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("negyszogCLITests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

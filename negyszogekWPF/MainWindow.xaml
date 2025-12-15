@@ -8,11 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <DataGrid x:Name="dtg_Data" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="46,48,323,48"/>
-        <TextBox HorizontalAlignment="Left" Margin="578,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="578,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="578,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="578,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Hozzáad" HorizontalAlignment="Left" Margin="613,316,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbx_Aoldal" HorizontalAlignment="Left" Margin="578,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbx_Boldal"  HorizontalAlignment="Left" Margin="578,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbx_Coldal" HorizontalAlignment="Left" Margin="578,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbx_Doldal" HorizontalAlignment="Left" Margin="578,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Hozzáad" HorizontalAlignment="Left" Margin="613,316,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Törlés" HorizontalAlignment="Left" Margin="623,371,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
 
     </Grid>
 </Window>
