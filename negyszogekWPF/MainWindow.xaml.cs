@@ -88,5 +88,32 @@ namespace negyszogekWPF
             }
 
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            if (dtg_Data.SelectedIndex > -1)
+            {
+                if(lista[dtg_Data.SelectedIndex].Modify(
+                    int.Parse(tbx_Aoldal.Text),
+                    int.Parse(tbx_Boldal.Text),
+                    int.Parse(tbx_Coldal.Text),
+                    int.Parse(tbx_Doldal.Text)
+
+                ))
+                {
+                    MessageBox.Show("Sikeres módosítás");
+                    dtg_Data.Items.Refresh();
+                }
+                else
+                {
+                    MessageBox.Show("Nincs jogosultsága a módosításhoz");
+                }
+            }
+
+            else
+            {
+                MessageBox.Show("Nincs kijelölt elem");
+            }
+        }
     }
 }

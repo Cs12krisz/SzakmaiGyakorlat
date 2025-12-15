@@ -51,6 +51,20 @@ namespace negyszogCLI
             return false;
         }
 
+        public bool Modify(int ujA, int ujB, int ujC, int ujD)
+        {
+            if(Environment.UserName == "CsKrisz")
+            {
+                A = ujA;
+                B = ujB;
+                C = ujC;
+                D = ujD;
+                return true;
+            }
+
+            return false;
+        }
+
         public override string? ToString()
         {
             return $"\ta: {A} b: {B} c: {C} d: {D}";

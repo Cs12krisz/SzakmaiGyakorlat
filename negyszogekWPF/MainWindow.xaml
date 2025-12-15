@@ -13,7 +13,8 @@
         <TextBox x:Name="tbx_Coldal" HorizontalAlignment="Left" Margin="578,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="tbx_Doldal" HorizontalAlignment="Left" Margin="578,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="Hozzáad" HorizontalAlignment="Left" Margin="613,316,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Button Content="Törlés" HorizontalAlignment="Left" Margin="623,371,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="Törlés" HorizontalAlignment="Left" Margin="621,395,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="Módosítás" HorizontalAlignment="Left" Margin="616,354,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
 
     </Grid>
 </Window>
